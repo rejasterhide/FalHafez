@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickFal(View v)
     {
         Intent intent1 = new Intent(this,
-                ActivityFal.class);
+                fall.class);
 
         Bundle b = new Bundle();
         intent1.putExtra("bundle data", b);
